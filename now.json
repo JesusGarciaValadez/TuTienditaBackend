@@ -1,0 +1,12 @@
+{
+  "name": "TuTiendita.com",
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }],
+  "env": {
+    "DB_USER": "@tutiendida-db-user",
+    "DB_PASSWORD": "@tutiendida-db-password",
+    "DB_HOST": "@tutiendida-db-host",
+    "DB_NAME": "@tutiendida-db-name"
+  }
+}
