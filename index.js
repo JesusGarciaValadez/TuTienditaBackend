@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const { config } = require('./config/index');
+const { config } = require('./config');
 const furnituresApi = require('./routes/furnitures.js');
 
 const {
